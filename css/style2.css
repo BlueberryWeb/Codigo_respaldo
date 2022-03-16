@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+footer{
+    background-color: #000000;
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.redes-footer{
+    display: flex;
+    margin-bottom: 40px;
+}
+.redes-footer li{
+    list-style: none;
+}
+.redes-footer img{
+    margin-left: 15px;
+}
+h1{
+    font-family: 'Prompt', sans-serif;
+}
+h5{
+    font-size: 0.8rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+input, label{
+    font-family: 'Fira Sans', sans-serif;
+}
+.borde-bottom{
+    border: none;
+    border-bottom: 3px solid #000000;
+    border-radius: 0;
+}
+h4{
+    font-size: 0.9rem;
+}
+.fondo{
+    background-color: #000000;
+}
+.form-contacto{
+    background-color: #fff;
+    padding: 40px 30px;
+    max-width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contacto h1{
+    color: #fff;
+    font-size: 4.3rem;
+}
+.servicios h1{
+    color: #fff;
+    font-size: 4.3rem;
+}
+.fondo-bco{
+    text-align: center;
+}
+.btn-conocer-mas{
+    box-shadow: 1px 1px 1px 1px #dadada;
+    font-family: 'Prompt', sans-serif;
+    background-color: #fff;
+    width: 150px;
+}
+.btn-conoce{
+    background: none;
+    color: #fff;
+    width: 400px;
+    border-radius: 0;
+}
+.btn-conoce:hover{
+    background: none;
+    color: #fff;
+}
+.btn-enviar{
+    background: none;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 0;
+    width: 200px;
+}
+.btn-ul{
+    margin-bottom: 150px;
+}
