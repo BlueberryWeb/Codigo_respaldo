@@ -3,22 +3,16 @@
 footer{
     background-color: #000000;
     color: #fff;
+    padding: 0rem 0rem 5rem 0rem;
 }
 footer a{
     text-decoration: none;
     color: #fff;
 }
-.redes-footer{
-    display: flex;
-    margin-bottom: 40px;
+footer a:hover{
+    color: #fff;
 }
-.redes-footer li{
-    list-style: none;
-}
-.redes-footer img{
-    margin-left: 15px;
-}
-h1{
+h1, button{
     font-family: 'Prompt', sans-serif;
 }
 h5{
@@ -58,17 +52,27 @@ h4{
 .fondo-bco{
     text-align: center;
 }
+.fondo-bco h2{
+    margin-top: 30px;
+    font-family: 'Prompt', sans-serif;
+}
+.fondo-bco video{
+    box-shadow: 5px 5px #fff;
+}
 .btn-conocer-mas{
     box-shadow: 1px 1px 1px 1px #dadada;
     font-family: 'Prompt', sans-serif;
     background-color: #fff;
-    width: 150px;
+    width: 200px;
+    font-size: 1.2rem;
 }
 .btn-conoce{
     background: none;
     color: #fff;
-    width: 400px;
+    width: 450px;
     border-radius: 0;
+    margin-top: 100px;
+    font-size: 1.8rem;
 }
 .btn-conoce:hover{
     background: none;
@@ -84,3 +88,65 @@ h4{
 .btn-ul{
     margin-bottom: 150px;
 }
+.fondo h1{
+    margin-bottom: 80px;
+}
+/*animación*/
+.content-all{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  perspective: 1000px;
+  transform: center;
+} 
+.content-carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+}
+.content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+  
+  
+.content-carrousel figure{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 300ms;
+    
+}
+  
+.content-carrousel figure:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 300ms;
+}
+  
+  .content-carrousel figure:nth-child(1){transform: rotateY(72deg) translateZ(300px);}
+  .content-carrousel figure:nth-child(2){transform: rotateY(144deg) translateZ(300px);}
+  .content-carrousel figure:nth-child(3){transform: rotateY(216deg) translateZ(300px);}
+  .content-carrousel figure:nth-child(4){transform: rotateY(288deg) translateZ(300px);}
+  .content-carrousel figure:nth-child(5){transform: rotateY(360deg) translateZ(300px);}
+  
+  .content-carrousel img{
+    width: 100%;
+    transition: all 300ms;
+  }
+  
+  .content-carrousel img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+  }
+  
+  
+  @keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+  }
