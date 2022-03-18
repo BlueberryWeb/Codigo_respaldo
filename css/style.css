@@ -23,6 +23,9 @@ a{
     color: #fff;
     font-size: 4.5rem;
 }
+#contacto-form{
+    margin-top: 160px;
+}
 .showcase{
     position: relative;
     right: 0;
