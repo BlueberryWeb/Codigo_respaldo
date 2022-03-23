@@ -101,7 +101,7 @@ h1, button{
     font-family: 'Prompt', sans-serif;
 }
 h5{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-family: 'Fira Sans', sans-serif;
 }
 input, label{
@@ -114,7 +114,7 @@ input, label{
     border-radius: 0;
 }
 h4{
-    font-size: 0.9rem;
+    font-size: 1.4rem;
 }
 .fondo{
     background-color: #000000;
@@ -514,7 +514,7 @@ transition: all 300ms;
     }
     .social{
         display: flex;
-        margin-left: 140px;
+        margin-left: 120px;
     }
     .social img{
         margin-left: 15px;
@@ -589,7 +589,7 @@ transition: all 300ms;
     }
     .social{
         display: flex;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     .social img{
         margin-left: 15px;
@@ -681,3 +681,23 @@ transition: all 300ms;
         width: 100px;
     }
 } 
+.modal-content, .modal-header{
+    background: none;
+    border: none;
+}
+.btn-close{
+    color: #fff!important;
+}
+#mensaje-agradecimiento{
+    color: white;
+    display: none;
+}
+#mensaje-agradecimiento a{
+    color: white;
+}
+#mensaje-agradecimiento h1{
+    background: -webkit-linear-gradient(79.33deg,#810CCE 19.6%,#EE1796 80.4%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 6.5rem;
+}
